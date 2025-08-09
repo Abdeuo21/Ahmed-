@@ -1,4 +1,4 @@
-const express = require('express');
+كconst express = require('express');
 const cors = require('cors');
 const { Configuration, OpenAIApi } = require('openai');
 
@@ -27,4 +27,5 @@ app.post('/chat', async (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
-});
+
+})
